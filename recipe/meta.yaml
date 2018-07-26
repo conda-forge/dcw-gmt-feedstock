@@ -1,6 +1,6 @@
 {% set name = "dcw-gmt" %}
-{% set version = "1.1.3" %}
-{% set sha256 = "1395e772c3f2d2900c78260ad4a9df2fecd9216e362ad141762f7499bfeb4f23" %}
+{% set version = "1.1.4" %}
+{% set sha256 = "8d47402abcd7f54a0f711365cd022e4eaea7da324edac83611ca035ea443aad3" %}
 
 package:
   name: {{ name|lower }}
