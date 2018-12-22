@@ -1,6 +1,8 @@
 About dcw-gmt
 =============
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: http://www.soest.hawaii.edu/wessel/dcw/
 
 Package license: LGPL
@@ -110,3 +112,10 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@leouieda](https://github.com/leouieda/)
+* [@mhearne-usgs](https://github.com/mhearne-usgs/)
+
