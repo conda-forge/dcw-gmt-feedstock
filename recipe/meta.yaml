@@ -16,9 +16,9 @@ build:
 
 test:
   commands:
-    - test -f $PREFIX/share/{{ name }}/LICENSE.TXT                             # [unix]
+    - test -f $PREFIX/share/{{ name }}/LICENSE                                 # [unix]
     - test -f $PREFIX/share/{{ name }}/{{ name }}.nc                           # [unix]
-    - if not exist %PREFIX%\\Library\\share\\{{ name }}\\LICENSE.TXT exit 1    # [win]
+    - if not exist %PREFIX%\\Library\\share\\{{ name }}\\LICENSE exit 1        # [win]
     - if not exist %PREFIX%\\Library\\share\\{{ name }}\\{{ name }}.nc exit 1  # [win]
 
 about:
