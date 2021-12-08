@@ -170,4 +170,5 @@ Feedstock Maintainers
 
 * [@leouieda](https://github.com/leouieda/)
 * [@mhearne-usgs](https://github.com/mhearne-usgs/)
+* [@seisman](https://github.com/seisman/)
 
