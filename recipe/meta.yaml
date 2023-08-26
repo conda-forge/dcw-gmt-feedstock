@@ -1,6 +1,6 @@
 {% set name = "dcw-gmt" %}
-{% set version = "2.1.1" %}
-{% set sha256 = "ab72c8253076380c8477a1225370bc41f4aff811c28d2f64d75052ff3d9003af" %}
+{% set version = "2.1.2" %}
+{% set sha256 = "4bb840d075c8ba3e14aeb41cf17c24236bff787566314f9ff758ab9977745d99" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: ftp://ftp.soest.hawaii.edu/dcw/{{ name }}-{{ version }}.tar.gz
+  url: https://github.com/GenericMappingTools/dcw-gmt/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -26,7 +26,7 @@ about:
   license: LGPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
-  summary: 'DCW-GMT - The Digital Chart of the World for GMT 5'
+  summary: 'DCW-GMT - The Digital Chart of the World for GMT'
 
   description: |
     The Digital Chart of the World (DCW) is a comprehensive
